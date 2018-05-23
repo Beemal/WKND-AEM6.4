@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-05-23T15:36:46.822-04:00"
+        cq:lastModified="{Date}2018-05-23T15:59:49.479-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
@@ -34,9 +34,10 @@
                     sling:resourceType="wknd/components/content/image"
                     fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/surfer-wave-02.jpg"/>
                 <title
+                    cq:styleIds="[1527105098703]"
                     jcr:created="{Date}2018-05-23T15:32:58.339-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-05-23T15:32:58.339-04:00"
+                    jcr:lastModified="{Date}2018-05-23T15:52:33.083-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/content/title"/>
@@ -112,6 +113,15 @@
                             width="4"/>
                     </cq:responsive>
                 </image_1199058418>
+                <text_353072608
+                    jcr:created="{Date}2018-05-23T15:56:31.141-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-05-23T15:59:49.476-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;blockquote>&lt;i>When you give everyone a voice and give people power, the system usually ends up in a really good place. So, what we view our role as, is giving people that power.&lt;/i>&lt;/blockquote>&#xd;&#xa;&lt;h2>Mark Zuckerberg&lt;/h2>&#xd;&#xa;"
+                    textIsRich="true"/>
             </responsivegrid>
         </root>
     </jcr:content>
