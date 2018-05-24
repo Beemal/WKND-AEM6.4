@@ -2,14 +2,14 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-05-24T10:09:49.617-04:00"
+        cq:lastModified="{Date}2018-05-24T10:09:30.658-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Ultimate guide to LA stakeparks"
-        jcr:uuid="e32578af-e3f0-4efe-a336-65a1b28a162e"
+        jcr:uuid="059f52bf-20c8-474c-8ad5-b4e1b2d4fb6b"
         sling:resourceType="wknd/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -139,7 +139,7 @@
                     childDepth="1"
                     linkItems="true"
                     listFrom="static"
-                    pages="[/content/ici/en,/content/we-retail/us/en/men,/content/wknd/en/sports/la-stakeparks,/content/wknd/en/first-article]"
+                    pages="[/content/ici/en,/content/we-retail/us/en/men,/content/wknd/en/sport/la-stakeparks,/content/wknd/en/first-article]"
                     showDescription="false"
                     showModificationDate="true"
                     sortOrder="asc"

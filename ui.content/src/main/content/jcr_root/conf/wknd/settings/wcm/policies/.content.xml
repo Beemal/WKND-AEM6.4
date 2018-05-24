@@ -59,6 +59,16 @@
                         components="[/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_6725460420140>
+                    <policy_17092683150711
+                        cq:styleDefaultClasses="cmp-layout-container--footer full-width"
+                        jcr:lastModified="{Date}2018-05-24T10:19:22.376-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Layout Container - Footer"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:WKND.Content,group:WKND.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_17092683150711>
                 </responsivegrid>
             </components>
         </foundation>
@@ -222,6 +232,23 @@
                     </policy_1527108023422>
                 </list>
             </content>
+            <structure jcr:primaryType="nt:unstructured">
+                <navigation jcr:primaryType="nt:unstructured">
+                    <policy_1527171654110
+                        cq:styleDefaultClasses="cmp-navigation--footer"
+                        jcr:lastModified="{Date}2018-05-24T10:21:55.638-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Navigation - WKND"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/wknd/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1527171654110>
+                </navigation>
+            </structure>
         </components>
     </wknd>
 </jcr:root>
