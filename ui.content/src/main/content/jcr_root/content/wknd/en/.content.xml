@@ -19,6 +19,8 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
+        <image/>
     </jcr:content>
     <first-article/>
+    <sports/>
 </jcr:root>
