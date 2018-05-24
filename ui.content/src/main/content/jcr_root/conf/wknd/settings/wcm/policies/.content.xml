@@ -32,12 +32,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_830448309763
-                        jcr:lastModified="{Date}2018-05-23T15:12:39.963-04:00"
+                        jcr:lastModified="{Date}2018-05-23T16:16:28.343-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content "
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        components="[/libs/dam/cfm/components/contentfragment,/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -50,6 +50,15 @@
                             </assetToComponentMapping>
                         </cq:authoring>
                     </policy_830448309763>
+                    <policy_6725460420140
+                        jcr:lastModified="{Date}2018-05-23T16:46:57.619-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Article Sidebar"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_6725460420140>
                 </responsivegrid>
             </components>
         </foundation>
@@ -93,7 +102,7 @@
                 </title>
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1527105289348
-                        jcr:lastModified="{Date}2018-05-23T15:55:58.331-04:00"
+                        jcr:lastModified="{Date}2018-05-23T16:50:41.012-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Text - Article"
@@ -183,6 +192,35 @@
                         </cq:styleGroups>
                     </policy_1527105289348>
                 </text>
+                <list jcr:primaryType="nt:unstructured">
+                    <policy_1527108023422
+                        jcr:lastModified="{Date}2018-05-23T16:50:19.263-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND List - Article"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        dateFormat="EEEE, d MMM y"
+                        disableChildren="false"
+                        disableSearch="false"
+                        disableStatic="false"
+                        disableTags="false"
+                        linkItems="false"
+                        showDescription="false"
+                        showModificationDate="false">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-list--upnext"
+                                        cq:styleId="1527108055273"
+                                        cq:styleLabel="Up next"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1527108023422>
+                </list>
             </content>
         </components>
     </wknd>
