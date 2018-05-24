@@ -11,14 +11,7 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <header
-                jcr:created="{Date}2018-05-23T15:11:48.723-04:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-05-23T15:11:48.723-04:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd/components/structure/header"/>
-            <responsivegrid
+           <responsivegrid
                 jcr:created="{Date}2018-05-23T15:11:57.851-04:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2018-05-23T15:11:57.851-04:00"
